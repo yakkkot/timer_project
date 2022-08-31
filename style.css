@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(-45deg, #ed193b, #a98055, #f286e2, #681d7a);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    flex-direction: column;
+}
+.buttons{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40px;
+    display: block;
+    transition: 0.5s;
+    font-weight: 400;
+}
+a:hover{
+  color: #89389f;
+}
+h1{
+    margin-top: 30px;
+    font-size: 80px ;
+    margin-right: 15px;
+    color: #103781;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h3 {
+   margin: 0 0 10px;
+}
